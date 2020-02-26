@@ -204,7 +204,7 @@ a:focus {
 }
 
 .frame__search{
-    font-size:1.5rem;
+    font-size:1.3rem;
     font-weight: bold;
     line-height: 1.4;
     max-width:100%;
@@ -303,7 +303,7 @@ a:focus {
 	}
     .frame__plans{
         grid-area: plans;
-        min-width:250px;
+        min-width:240px;
         max-width:260px;
         position:absolute;
         font-size:0.9rem;
@@ -318,7 +318,7 @@ a:focus {
         grid-area: search;
 		/*justify-self: end;*/
         min-width:240px;
-        max-width:240px;
+        max-width:260px;
         position:absolute;
         right:0;
         bottom:0;
