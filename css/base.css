@@ -201,7 +201,6 @@ a:focus {
 }
 
 .frame__plans span{
-    font-size:1.2rem;
 }
 
 .frame__search{
@@ -260,7 +259,7 @@ a:focus {
 
 @media screen and (min-width: 45em) {
 	:root {
-		font-size: 12px;
+		font-size: 14px;
 	}
 	body {
 		overflow: hidden;
@@ -295,7 +294,8 @@ a:focus {
 	}
     .frame__pagetitle span{
         width:300px;
-        font-size:1rem;
+        font-size:0.9rem;
+        line-height: 1.6;
     }
 	.frame__title-wrap {
 		grid-area: title;
@@ -303,18 +303,25 @@ a:focus {
 	}
     .frame__plans{
         grid-area: plans;
-        min-width:220px;
-        max-width:240px;
+        min-width:250px;
+        max-width:260px;
         position:absolute;
+        font-size:0.9rem;
         right:0;
+        letter-spacing: -0.01em;
+    }
+    .frame__plans b{
+        display:inline-block;
+        padding-top:8px;
     }
     .frame__search{
         grid-area: search;
 		/*justify-self: end;*/
-        min-width:220px;
+        min-width:240px;
         max-width:240px;
         position:absolute;
         right:0;
+        bottom:0;
         
     }
     .frame__explain{
