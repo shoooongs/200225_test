@@ -185,12 +185,12 @@ a:focus {
 	display: block;
     max-width: 100%;
     min-width: 200px;
-	font-weight: normal;
+	font-weight: 400;
 	font-size: 1rem;
-    line-height:1.6;
+    line-height:1.5;
     margin-top: 20px;
     color:#fff;
-    letter-spacing: -0.02rem;
+    letter-spacing: -0.03rem;
 
 }
 
@@ -200,11 +200,18 @@ a:focus {
     max-width:80%;
     line-height:1.5;
     text-align: left;
+    font-weight: 400;
+    letter-spacing: -0.03rem;
 }
 
 .frame__plans span{
+    
 }
 
+.frame__plans b{
+        display:inline-block;
+        padding-top:8px;
+    }
 .frame__search{
     font-size:1.3rem;
     font-weight: bold;
