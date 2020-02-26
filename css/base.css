@@ -218,6 +218,7 @@ a:focus {
     padding-top:30px;
     color:#e9480a;
     font-size:1.5rem;
+    text-align: right;
 }
 
 .content {
