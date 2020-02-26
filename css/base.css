@@ -178,6 +178,7 @@ a:focus {
     font-weight: 600;
     letter-spacing: -0.4rem;
     line-height:1.2;
+    margin:0;
 }
 
 .frame__pagetitle span {
@@ -186,7 +187,7 @@ a:focus {
     min-width: 200px;
 	font-weight: normal;
 	font-size: 1rem;
-    line-height:1.8;
+    line-height:1.6;
     margin-top: 20px;
     color:#fff;
     letter-spacing: -0.02rem;
@@ -195,9 +196,10 @@ a:focus {
 
 
 .frame__plans{
-    margin:0 0 2rem 0;
-    max-width:100%;
+    margin:2rem 0;
+    max-width:80%;
     line-height:1.5;
+    text-align: left;
 }
 
 .frame__plans span{
@@ -215,6 +217,7 @@ a:focus {
     display: block;
     padding-top:30px;
     color:#e9480a;
+    font-size:1.5rem;
 }
 
 .content {
